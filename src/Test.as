@@ -10,6 +10,7 @@ package
 	{
 		public function Test()
 		{
+			trace("test");
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.frameRate = 60;
